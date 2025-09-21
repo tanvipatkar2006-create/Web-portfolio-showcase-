@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanvi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+        .project-card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        /* Responsive grid for larger screens */
+        @media (min-width: 600px) {
+            .projects {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hi, I'm Tanvi</h1>
+    <p>A BCA student and lifelong learner exploring web development</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Tanvi, passionate about coding and learning new technologies. I enjoy building small projects to improve my skills and share my journey with others.</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>Personal Portfolio Website</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: tanvipatkar2006.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/tanvi-patkar-1244a32aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">yourprofile</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Tanvi Portfolio | All rights reserved</p>
+</footer>
+
+</body>
+</html>
